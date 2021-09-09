@@ -25,6 +25,7 @@ router.register(r'keys', views.KeyView, 'index')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name="index"),
+    path('form/',views.form,name="form"),
     path('api/', include(router.urls)),
 ]
 

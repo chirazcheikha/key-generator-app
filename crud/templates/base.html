@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>keygen restapi</title>
+
+    <style>
+        .demo-card-square.mdl-card {
+            width: 90%;
+            height: 500px;
+            margin: 20px;
+        }
+        
+        .demo-card-square>.mdl-card__title {
+            color: #fff;
+            background-size: cover
+        }
+        
+        body {
+            background: #fafafa;
+            position: relative;
+        }
+    </style>
+</head>
+
+
+   <body>
+    <!-- header -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <a style="color:white;text-decoration: none;" href="{% url 'index' %}"><span class="mdl-layout-title">keygen restapi</span></a>
+                <div class="mdl-layout-spacer"></div>
+                 <nav class="mdl-navigation mdl-layout--large-screen-only">
+         <a  class="mdl-navigation__link"  href="{% url 'form' %}" >Create Key</a>
+            </nav>
+            </div>
+        </header>
+
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <span class="mdl-layout-title">keygen restapi</span>
+    
+            <nav class="mdl-navigation">
+            
+            </nav>
+        </div>
+{% block body %}
+
+  </body>
+  
+{% endblock %}
+
+</html>
