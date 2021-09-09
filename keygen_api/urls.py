@@ -3,7 +3,7 @@ from django.urls import path,include
 from crud import views
 from rest_framework import routers
 
-
+# registering route to serialized data 
 router = routers.DefaultRouter()
 router.register(r'keys', views.KeyView, 'index')
 
